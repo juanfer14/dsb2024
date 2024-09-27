@@ -1,6 +1,6 @@
 # Practica 1
 
-1. El script "ej1.py" genera una wallet y muestra las claves publicas y privadas extended, y dos direcciones de recepcion:
+1. El script [ej1.py](ej1.py) genera una wallet y muestra las claves publicas y privadas extended, y dos direcciones de recepcion:
 ```
 palabras:  intact curious pizza brisk fall apple since inspire version defy trick cable
 clave privada extended:  tprv8gzCTJMUxtBSrHegWodP5nG17JAMuFzDdHAuNxQbgXqyuYh2w7aET2QVqAAKsvvK1D99mZ2nqP15oJCMxmZiu4oABEdUSWmGk1FC4XSXPrx

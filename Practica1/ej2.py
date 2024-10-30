@@ -16,7 +16,13 @@ addr1_change = wallet.new_change_address()
 # 20 satoshis para enviar de addr1 a addr2
 value = 20
 
+print(addr1)
+
 priv1 = wallet.privkey(addr1)
-tx = coin.preparesignedtx(priv1, addr1, addr2, value, change_addr=addr1_change)
-txid = coin.pushtx(tx)
-print(txid)
+try:
+    tx = coin.preparesignedtx(priv1, addr1, addr2, value, 
+                              change_addr=addr1_change)
+    txid = coin.pushtx(tx)
+    print(txid)
+except Exception as e:
+    print(e)
